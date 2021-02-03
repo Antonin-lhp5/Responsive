@@ -1,0 +1,86 @@
+/* * {
+  font-family: Avenir, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.banner {
+  grid-area: 1 / 2 / 2 / 11;
+
+}
+
+.col-un {
+  grid-area: 2 / 2 / 3 / 5;
+}
+
+.col-deux {
+  grid-area: 2 / 5 / 3 / 8;
+}
+
+.col-trois {
+  grid-area: 2 / 8 / 3 / 11;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.taille-image-deux {
+  height: 100%;
+  width: 100%;
+}
+
+/* TYPOGRAPHIE */
+
+h1 {
+  color: rgb(64, 133, 224);
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+h2 {
+  color: black;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: black;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+p {
+  font-weight: bold;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.7em;
+}
+
+hr {
+  color: grey;
+}
+
+.blue {
+  background-color: rgb(64, 133, 224);
+  color: white;
+  padding: 3px 3px 3px 3px;
+}

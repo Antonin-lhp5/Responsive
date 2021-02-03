@@ -1,0 +1,63 @@
+/* Table */
+
+th {
+    text-transform: uppercase;
+    font-family: helvetica;
+
+
+}
+
+td {
+    text-transform: uppercase;
+}
+
+.bg-color-blue {
+    background-color: #30336b;
+}
+
+.bg-color-darkgrey {
+    background-color: #535c68;
+}
+
+.bg-color-lightgrey {
+    background-color: #95afc0;
+}
+
+.bg-color-grey {
+    background-color: #b3b7bb;
+}
+
+
+
+
+/* color icone "fontawesome" */
+
+.color-green {
+
+    color: green;
+}
+
+.color-grey {
+
+    color: grey;
+}
+
+.color-red {
+    color: red;
+}
+
+/* Gestion des logos */
+
+img {
+    width: 10%;
+    height: auto;
+
+}
+
+.large {
+    width: 120%;
+}
+
+body {
+    background-color: #b3b7bb;
+}
